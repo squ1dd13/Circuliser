@@ -10,3 +10,6 @@ I am releasing the source code because I planned to do so and because I like doi
 This code is licenced under GPLv3, but there are a couple of additional requests I have:
 - If this code is helpful to you either for learning or for actual use, please say so somewhere in a credits section. Nobody will know if you don't, but I would be very grateful if you do.
 - If your project is commercial and my code is helpful, please buy Circuliser if you hadn't already done so.
+
+## Note
+I am not liable for any adverse effects on the health of viewers caused by my code. If you are sensitive to low-quality, hacky code, take care when navigating this respository. You have been warned.
