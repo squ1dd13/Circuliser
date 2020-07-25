@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Automatic Pausing</string>
+			<key>footerText</key>
+			<string>Enable this if the circle sometimes freezes. Changes require a respring.</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>fix frezz</string>
+			<key>label</key>
+			<string>Disable Auto-Pausing</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>0</string>
+		</dict>
+
+<!--
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Alpha</string>
+			<key>footerText</key>
+			<string>The opacity of the visualiser.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>see-able-ness</string>
+			<key>max</key>
+			<real>100</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>80</real>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+			<key>textSelector</key>
+			<string>textForPercentageSlider:</string>
+		</dict>
+		-->
+	</array>
+	<key>title</key>
+	<string>Miscellaneous</string>
+</dict>
+</plist>

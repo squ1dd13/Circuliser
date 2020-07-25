@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	
+	<key>items</key>
+	<array>
+        <!--
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>footerCellClass</key>
+            <string>SQGraphCellView</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Amplification</string>
+			<key>footerText</key>
+			<string>fuck off</string>
+		</dict>
+        
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>oi turn it up</string>
+			<key>max</key>
+			<real>8</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>1</real>
+			<key>cellClass</key>
+			<string>SQBetterSliderCell</string>
+			<key>textSelector</key>
+			<string>textForMultiplierSlider:</string>
+		</dict>
+        -->
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable Bouncing</string>
+			<key>footerText</key>
+			<string>Allow the circle to grow and shrink with the overall loudness of the music.</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>bounceallowed</string>
+			<key>label</key>
+			<string>Enable Bouncing</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>1</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Bounce Attack Multiplier</string>
+			<key>footerText</key>
+			<string>How fast the entire circle expands in line with the overall music loudness.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>0.1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>bounceattackmultiplier</string>
+			<key>max</key>
+			<real>2</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>1</real>
+			<key>cellClass</key>
+			<string>SQBetterSliderCell</string>
+			<key>textSelector</key>
+			<string>textForMultiplierSlider:</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Bounce Decay Multiplier</string>
+			<key>footerText</key>
+			<string>How fast the entire circle contracts in line with the overall music loudness.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>0.1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>bouncedecaymultiplier</string>
+			<key>max</key>
+			<real>2</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>1</real>
+			<key>cellClass</key>
+			<string>SQBetterSliderCell</string>
+			<key>textSelector</key>
+			<string>textForMultiplierSlider:</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Attack Multiplier</string>
+			<key>footerText</key>
+			<string>How fast each point rises towards a value higher than its current value. Lower values are better for higher framerates.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>0.1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>attackmultiplier</string>
+			<key>max</key>
+			<real>2</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>1</real>
+			<key>cellClass</key>
+			<string>SQBetterSliderCell</string>
+			<key>textSelector</key>
+			<string>textForMultiplierSlider:</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Decay Multiplier</string>
+			<key>footerText</key>
+			<string>How fast each point falls towards a value lower than its current value. Lower values are better for higher framerates.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>0.1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>decaymultiplier</string>
+			<key>max</key>
+			<real>2</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>1</real>
+			<key>cellClass</key>
+			<string>SQBetterSliderCell</string>
+			<key>textSelector</key>
+			<string>textForMultiplierSlider:</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Peak Update Frequency</string>
+			<key>footerText</key>
+			<string>How often the magnitude reference value is lowered. Lower values increase sensitivity, but reduce visual dynamics. If you have chosen a higher framerate and the circle is going mad, try lowering this value. Default is 6.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>peakupdatefrequency</string>
+			<key>max</key>
+			<real>30</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>6</real>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Peak Highlight Multiplier</string>
+			<key>footerText</key>
+			<string>How much a frequency range that is higher than usual should stand out. Higher values tend to simply make the circle larger. Small adjustments may appear to increase the sensitivity.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>0.1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>peakhighlightmultiplier</string>
+			<key>max</key>
+			<real>2</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>1</real>
+			<key>cellClass</key>
+			<string>SQBetterSliderCell</string>
+			<key>textSelector</key>
+			<string>textForMultiplierSlider:</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Total Frequency Range</string>
+			<key>footerText</key>
+			<string>The percentage of the maximum frequency range that should be visualised. Higher values are better for electronic music, lower values are good for human voices or, if you go lower, music with loud bass. Default is 68.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+			<key>textSelector</key>
+			<string>textForPercentageSlider:</string>
+			<key>key</key>
+			<string>totalfrequencyrange</string>
+			<key>max</key>
+			<real>100</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>68</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>FPS</string>
+			<key>footerText</key>
+			<string>How many times per second the visualiser is drawn to the screen. Higher framerates may consume more battery and CPU, but will result in a more responsive visualisation. Lower framerates are more power-friendly, but peaks will not stand out as much. Default is 25.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>10</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+			<key>key</key>
+			<string>framerate</string>
+			<key>max</key>
+			<real>60</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>25</real>
+			<key>isContinuous</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Visualisation</string>
+</dict>
+</plist>

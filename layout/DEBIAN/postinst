@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo ":)"
+killall -9 mediaserverd
+exit 0

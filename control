@@ -1,0 +1,9 @@
+Package: com.squ1dd13.bouncebass
+Name: Circuliser
+Depends: mobilesubstrate, com.muirey03.libmryipc, com.squ1dd13.inky
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Circular music visualiser.
+Maintainer: Squ1dd13
+Author: Squ1dd13
+Section: Tweaks

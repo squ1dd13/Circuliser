@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<!--
+
+		ahahaha fuck no
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerCellClass</key>
+			<string></string>
+		</dict>
+
+		-->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>tweakEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>1</string>
+			<key>respring required</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Colouring Mode</string>
+		</dict>
+		<dict>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Automatic</string>
+				<string>Custom</string>
+			</array>
+
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>key</key>
+			<string>colourmode</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>respring required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>SQColorPickerCell</string>
+			<key>defaultColor</key>
+			<integer>3435973887</integer>
+			<key>defaultsDomain</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>defaultsKey</key>
+			<string>defaultcolour</string>
+			<key>label</key>
+			<string>Circle Colour</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>respring required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>fillCircle</string>
+			<key>label</key>
+			<string>Fill Circle</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>1</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Number of Points</string>
+			<key>footerText</key>
+			<string>Note that increasing the number of points will increase CPU usage and therefore battery usage, but will give a more detailed visualisation of the music. This setting requires a respring to take effect. Default is 50.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>3</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>key</key>
+			<string>number o' points</string>
+			<key>max</key>
+			<real>150</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>50</real>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+			<key>isContinuous</key>
+			<true/>
+			<key>id</key>
+			<string>sld</string>
+			<!--
+			<key>isSegmented</key>
+			<true/>
+
+			<key>segmentCount</key>
+			<integer>147</integer>
+		-->
+			<key>respring required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>smooth dat path</string>
+			<key>label</key>
+			<string>Smooth Edges</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>1</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Instead of displaying the visualiser on the music player (in the foreground), display it in the background. This may be useful if you have a tweak that changes the music player.</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>background ting</string>
+			<key>label</key>
+			<string>Display on Wallpaper</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>0</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Visualisation</string>
+			<key>detail</key>
+			<string>BPTVisualizationSettingsController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Position and Size</string>
+			<key>detail</key>
+			<string>BPTPositionSettingsController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+			<key>detail</key>
+			<string>BPTMiscSettingsController</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respringing is not required for all settings, but is recommended for all settings on this page.</string>
+		</dict>
+
+		
+		<dict>
+			<key>label</key>
+			<string>Apply Changes (No Respring)</string>
+			<key>action</key>
+			<string>applyChanges</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Apply Changes and Respring</string>
+			<key>action</key>
+			<string>reloadThings</string>
+			<key>id</key>
+			<string>r e s p r i n g</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Credits</string>
+			<key>detail</key>
+			<string>BPTCreditsListController</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Circuliser</string>
+</dict>
+</plist>

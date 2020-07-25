@@ -1,0 +1,13 @@
+{
+	Filter = {
+		Bundles = (
+			"com.apple.MediaControls",
+			"com.apple.SpringBoard",
+            "com.apple.UIKit"
+		);
+
+		Executables = (
+			"mediaserverd"
+		);
+	};
+}

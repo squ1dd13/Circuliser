@@ -1,0 +1,155 @@
+<!--
+
+	What are you doing in my plist? ;)
+
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>cposcell</string>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>special xy treatment</string>
+			<key>label</key>
+			<string>Custom Position</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>0</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>X Offset</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>eks</string>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>-100</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+			<key>textSelector</key>
+			<string>textForPercentageSlider:</string>
+			<key>key</key>
+			<string>special x</string>
+			<key>max</key>
+			<real>100</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>0</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Y Offset</string>
+			<key>footerText</key>
+			<string>In iOS, the Y value increases as you travel down the screen.</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>why</string>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>-100</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+			<key>textSelector</key>
+			<string>textForPercentageSlider:</string>
+			<key>key</key>
+			<string>special y</string>
+			<key>max</key>
+			<real>100</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>0</real>
+			<key>isContinuous</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Over-Expansion</string>
+			<key>footerText</key>
+			<string>Let the circle expand outside its allocated area.</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>key</key>
+			<string>ExtraSplodge Technology</string>
+			<key>label</key>
+			<string>Allow Over-Expansion</string>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<string>0</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Base Radius</string>
+			<key>footerText</key>
+			<string>The base radius of the circle as a percentage of the smallest dimension of the allocated space. Default is 35.</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.squ1dd13.bb_pref_ting</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>SQIntegerSliderCell</string>
+			<key>textSelector</key>
+			<string>textForPercentageSlider:</string>
+			<key>key</key>
+			<string>base radius fraction</string>
+			<key>max</key>
+			<real>99</real>
+			<key>PostNotification</key>
+			<string>com.squ1dd13.bb_pref_ting.prefschanged</string>
+			<key>default</key>
+			<real>35</real>
+			<key>isContinuous</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Position and Size</string>
+</dict>
+</plist>
